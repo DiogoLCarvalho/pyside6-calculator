@@ -16,7 +16,7 @@ class AppWindow(QMainWindow):
     def adjustWindowSize(self):
         self.adjustSize()
 
-        self.setFixedSize(self.width(), self.height())
+        self.setFixedSize(self.width() - 80, self.height())
 
     def addWidgetToWindow(self, widget: QWidget):
         self.layoutWindow.addWidget(widget)

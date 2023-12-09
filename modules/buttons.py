@@ -18,7 +18,8 @@ class Button(QPushButton):
         font = self.font()
         font.setPixelSize(20)
         self.setFont(font)
-        self.setMinimumSize(60, 60)
+        self.setMinimumSize(50, 60)
+        self.setMaximumSize(80, 100)
 
 # organize buttons
 class GridButtons(QGridLayout):
