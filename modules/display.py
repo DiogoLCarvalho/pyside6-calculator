@@ -20,7 +20,6 @@ class Display(QLineEdit):
             """
             font-size:45px;
             font-weight:600;
-            color:#000000;
             """
         )
         
@@ -58,7 +57,6 @@ class Display(QLineEdit):
         if myPotencialSignal:
             if text.lower() == "p":
                 text = "^"
-            print(text)
             self.myOperationsSignal.emit(text)
             return event.ignore()    
 

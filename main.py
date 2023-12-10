@@ -12,7 +12,7 @@ if __name__ == "__main__":
 
     # main window
     window = AppWindow()
-    window.titleAplication("Epic Calculator")
+    window.titleAplication("Calculator")
     
     # alternative text above display
     info_operations = OperationsText("")
